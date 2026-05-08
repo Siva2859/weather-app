@@ -1,0 +1,84 @@
+body{
+font-family: Arial;
+background:#87CEEB;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+text-align:center;
+width:500px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+input{
+padding:10px;
+width:200px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#333;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+margin:5px;
+}
+
+button:hover{
+background:#555;
+}
+
+/* DARK MODE */
+
+.dark{
+background:#121212;
+color:white;
+}
+
+.dark .container{
+background:#1e1e1e;
+color:white;
+}
+
+.dark input{
+background:#333;
+color:white;
+border:1px solid #666;
+}
+
+.dark button{
+background:#444;
+}
+
+/* FORECAST */
+
+#forecast{
+margin-top:30px;
+text-align:center;
+}
+
+#forecast-container{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin-top:15px;
+}
+
+.forecast-card{
+background:#f3f3f3;
+padding:10px;
+border-radius:10px;
+width:100px;
+text-align:center;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
